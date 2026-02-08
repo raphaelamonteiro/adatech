@@ -1,101 +1,91 @@
-<h1 align="center"> API ADS 4º Semestre </h1>
 
 <div align="center">
-      <img src="docs/assets/Banner - projeto.png" alt="AdaTech" width="900">
-<h2 align="center"> 🐙 Equipe Adalove </h2>
+
+🌎 Read this in: [English](README.md) | [Português](README.pt-BR.md)
+
+<img src="docs/banner.adatech.png" alt="AdaTech" width="900">
 </div>
 
 <div align="center">
 
-|
-<a href ="#desafio"> Desafio</a> |
-<a href ="#mvp"> Solução</a> |
-<a href ="#backlog"> Backlog do Produto</a> |
-<a href ="#sprint"> Cronograma de Sprints</a> |
-<a href ="#tecnologias"> Tecnologias </a> |
-
-<!---a href ="#estrutura"> Estrutura do Projeto </a> |---->
-
+<a href ="#challenge"> Challenge</a> |
+<a href ="#mvp"> Solution</a> |
+<a href ="#backlog"> Product Backlog</a> |
+<a href ="#sprint"> Sprint Timeline</a> |
+<a href ="#technologies"> Technologies </a> |
 <a href ="#dor"> DoR</a> |
 <a href ="#dod"> DoD</a> |
-<a href ="#roadmap"> Roadmap de Entregas </a> |
-<a href ="#manual"> Guia de Documentações</a> |
-<a href ="#adateam"> Equipe </a>
+<a href ="#roadmap"> Delivery Roadmap </a> |
+<a href ="#manual"> Documentation Guide</a> |
+<a href ="#adateam"> Team </a>
 |
-
 </div>
 
 <br>
 
-> Status do Projeto: Concluído!  ✔️
+> Project Status: Completed ✔️
 
 <br>
 
-## 🏁 Desafio: <a id="desafio"></a>
+## 🏁 Challenge: <a id="challenge"></a>
 
-O desafio consiste em criar um **agente de Inteligência Artificial** inovador capaz de automatizar a elaboração da instrução de registro aduaneiro, incorporando de forma inteligente dados críticos como Part-Number, classificação fiscal, fabricante, origem e endereço do fabricante. <br>
-O processo manual de elaboração dessas instruções, frequentemente sujeito a erros humanos e retrabalho pode gerar riscos, além de consumir tempo da equipe responsável. <br>
-A solução visa eliminar essas ineficiências, garantindo que a descrição do material seja precisa, sem ambiguidades, e em total conformidade com as exigências legais. <br>
-Dessa forma, a Receita Federal terá uma compreensão clara do produto, evitando questionamentos, penalidades ou multas.
+The challenge consists of creating an innovative **Artificial Intelligence agent** capable of automating the preparation of customs registration instructions, intelligently incorporating critical data such as Part Number, fiscal classification, manufacturer, country of origin, and manufacturer address. <br>
+The manual process of preparing these instructions is often prone to human error and rework, which can generate risks and consume a significant amount of time from the responsible team. <br>
+The proposed solution aims to eliminate these inefficiencies, ensuring that material descriptions are accurate, unambiguous, and fully compliant with legal requirements. <br>
+As a result, the Brazilian Federal Revenue Service can clearly understand the product, avoiding inquiries, penalties, or fines.
 
 ## 🫧 MVP (Minimal Viable Product) <a id="mvp"></a>
 
-A solução para esse desafio é <b>AdaTech</b>, uma plataforma inovadora que automatiza a criação da instrução de registro aduaneiro, proporcionando uma experiência sem fricções e com precisão. <br>
-o sistema integra, de forma eficiente, dados essenciais como Part-Number, classificação fiscal, fabricante e origem para gerar automaticamente uma descrição do produto que seja tanto clara quanto legalmente compatível.<br>
-O que antes demandava tempo, foco e o risco de erros de interpretação, agora é feito de forma rápida, e com conformidade. <br>
-Isso não apenas minimiza os riscos de penalidades, mas também libera a equipe para se concentrar em tarefas de maior valor agregado, acelerando o processo e aumentando a segurança nas transações aduaneiras.
+The solution to this challenge is <b>AdaTech</b>, an innovative platform that automates the creation of customs registration instructions, delivering a frictionless and highly accurate experience. <br>
+The system efficiently integrates essential data such as Part Number, fiscal classification, manufacturer, and origin to automatically generate a product description that is both clear and legally compliant. <br>
+What previously required time, focus, and carried a high risk of interpretation errors is now done quickly and in full compliance. <br>
+This not only minimizes the risk of penalties but also allows the team to focus on higher value-added tasks, accelerating the process and increasing security in customs transactions.
+
 
 ## 🐙 Backlog do Produto
 
 <a id="backlog"></a>
 
-| Rank | Prioridade |                                                                      User Story                                                                      | Story Points | Sprint | Status |
-| :--: | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :----: | :----: |
-|  1   |    Alta    |  Como usuário final, quero fazer o upload de um PDF de um pedido de compra, para que o sistema extraia todos os Part-Numbers (P/Ns) contidos nele.   |      5       |   1    |   ✔️   |
-|  2   |    Alta    |                   Como usuário final, quero que o sistema sugira o NCM e a descrição de cada item, para que eu tome ciência deles.                   |      13      |   1    |   ✔️   |
-|  3   |    Alta    |                        Como usuário final, quero gerar um arquivo Excel com os dados finais, para submeter à receita federal.                        |      3       |   1    |   ✔️   |
-|  4   |   Média    |   Como usuário final, quero ter um formulário, para revisar e corrigir as informações extraídas antes de finalizar o processo, para evitar falhas    |      8       |   2    |   ✔️   |
-|  5   |   Média    |               Como usuário final, quero acessar o sistema através de uma tela de login para garantir a segurança dos dados da empresa.               |      5       |   2    |   ✔️   |
-|  6   |   Média    | Como usuário final, quero ter acesso a um histórico que liste os PDFs já processados, para que eu possa consultar rapidamente resultados anteriores. |      5       |   3    |   ✔️   |
-|  7   |   Baixa    |                  Como usuário final, quero ter acesso à documentação completa do sistema para facilitar o uso e a instalação dele.                   |      3       |   3    |   ✔️   |
+| Rank | Priority | User Story | Story Points | Sprint | Status |
+| :--: | :------: | :--------- | :----------: | :----: | :----: |
+| 1 | High | As an end user, I want to upload a purchase order PDF so the system can extract all Part Numbers (P/Ns) contained in it. | 5 | 1 | ✔️ |
+| 2 | High | As an end user, I want the system to suggest the NCM code and description for each item so I can review them. | 13 | 1 | ✔️ |
+| 3 | High | As an end user, I want to generate an Excel file with the final data to submit to the Federal Revenue Service. | 3 | 1 | ✔️ |
+| 4 | Medium | As an end user, I want a form to review and correct the extracted information before finalizing the process to avoid errors. | 8 | 2 | ✔️ |
+| 5 | Medium | As an end user, I want to access the system through a login screen to ensure company data security. | 5 | 2 | ✔️ |
+| 6 | Medium | As an end user, I want access to a history of processed PDFs so I can quickly consult previous results. | 5 | 3 | ✔️ |
+| 7 | Low | As an end user, I want access to complete system documentation to facilitate usage and installation. | 3 | 3 | ✔️ |
 
 ## 🚣 DoR - Definition of Ready <a id="dor"></a>
 
-✔️ Descrição Clara e Concisa: A história do usuário possui uma descrição clara e concisa do ponto de vista do usuário.
+✔️ Clear and Concise Description: The user story has a clear and concise description from the user’s perspective.  
+✔️ Defined Acceptance Criteria: Acceptance criteria are clearly defined and understood by the team.  
+✔️ Completed Estimation: The story has been estimated by the development team.  
+✔️ Identified Dependencies: Dependencies with other stories have been identified.  
+✔️ Product Owner Prioritization: The Product Owner has approved and prioritized all stories.
 
-✔️ Critérios de Aceitação Definidos: Os critérios de aceitação foram definidos e são compreendidos pela equipe.
-
-✔️ Estimativa Concluída: A história foi estimada pela equipe de desenvolvimento.
-
-✔️ Dependências Identificadas: As dependências com outras histórias foram identificadas.
-
-✔️ Priorização do Product Owner: O Product Owner aprovou e priorizou todas as histórias.
 
 ## 🏝️ DoD - Definition of Done <a id="dod"></a>
 
-- Código Escrito e Revisado: O código foi escrito e revisado.
-
-- Testes de Desenvolvedor: A solução foi testada pelos desenvolvedores.
-
-- Critérios de Aceitação Atendidos: Todos os critérios de aceitação foram cumpridos.
-
-- Documentação Atualizada: A documentação foi atualizada.
-
-- Aprovação do Product Owner: Cada história foi testada e aprovada pelo Product Owner.
-
-- Código no Repositório Principal: O código foi incorporado à branch principal do projeto.
+- Code Written and Reviewed  
+- Developer Testing Completed  
+- Acceptance Criteria Met  
+- Documentation Updated  
+- Product Owner Approval  
+- Code Merged into the Main Branch  
 
 ---
 
-## 📅 Cronograma de Sprints <a id="sprint"></a>
+## 📅 Sprint Timeline <a id="sprint"></a>
 
-| Sprint          |    Período    | Relatório                                 |
-| --------------- | :-----------: | ----------------------------------------- |
-| ✔️ **SPRINT 1** | 08/09 - 28/09 | [Concluída](docs/doc-sprints/sprint-1.md) |
-| ✔️ **SPRINT 2** | 06/10 - 26/10 | [Concluída](docs/doc-sprints/sprint-2.md) |
-| ✔️ **SPRINT 3** | 03/11 - 23/11 | [Concluída](docs/doc-sprints/sprint-3.md) |
+| Sprint | Period | Report |
+| ------ | :----: | ------ |
+| ✔️ **SPRINT 1** | 09/08 – 09/28 | [Completed](docs/doc-sprints/sprint-1.md) |
+| ✔️ **SPRINT 2** | 10/06 – 10/26 | [Completed](docs/doc-sprints/sprint-2.md) |
+| ✔️ **SPRINT 3** | 11/03 – 11/23 | [Completed](docs/doc-sprints/sprint-3.md) |
 
-## ✨ Protótipo da Aplicação <a id="prototipo"></a>
+
+## ✨ Application Prototype <a id="prototype"></a>
 
 <div align="center">
 <table>
@@ -136,9 +126,9 @@ https://github.com/user-attachments/assets/382b0799-d370-4754-acb5-068a4deda1cc
 
 ---
 
-## 🚢 Tecnologias
+## 🚢 Technologies
 
-<a id="tecnologias"></a>
+<a id="technologies"></a>
 
 <div align="center">
 
@@ -160,18 +150,17 @@ https://github.com/user-attachments/assets/382b0799-d370-4754-acb5-068a4deda1cc
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 </h4>
-
 </div>
 
-## 🌊 Roadmap de Entregas <a id="roadmap"></a>
+## 🌊 Delivery Roadmap <a id="roadmap"></a>
+<div align="center">
+<img src="docs/assets/roadmap-en.jpg" alt="AdaTech" width="900">
+</div>
 
-![1° Sprint -  API 4 SEMESTRE- AdaTech](https://github.com/user-attachments/assets/a02012d8-45db-4135-a58c-c8688cb588b2)
+## 📖 Documentation Guide <a id="manual"></a>
 
-## 📖 Guia de Documentações <a id="manual"></a>
-
-[Guias do Usuário (Manual de Instalação e Utilização do AdaTech)](docs/manuais)
-
-[Documentação Técnica](docs/documentacao)
+[User Guides in PT-BR (Installation and Usage Manual)](docs/manuais)  
+[Technical Documentation in PT-BR](docs/documentacao)
 
 ## 🫧 AdaTeam
 
@@ -190,9 +179,7 @@ https://github.com/user-attachments/assets/382b0799-d370-4754-acb5-068a4deda1cc
 
 </div>
 
-## ⚓ Cliente:
-
-<a id="cliente"></a>
+## ⚓ Client <a id="client"></a>
 
 <div align="center">
 
@@ -202,10 +189,7 @@ https://github.com/user-attachments/assets/382b0799-d370-4754-acb5-068a4deda1cc
 
 </div>
 
-## 🌊 Docentes:
-
-<a id="docentes"></a>
-
+## 🌊 Faculty Advisors <a id="faculty"></a>
 <div align="center">
 
 |                                   P²                                   |                                   M²                                   |
