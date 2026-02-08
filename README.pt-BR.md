@@ -1,8 +1,9 @@
-<h1 align="center"> API ADS 4º Semestre </h1>
 
 <div align="center">
-      <img src="docs/assets/Banner - projeto.png" alt="AdaTech" width="900">
-<h2 align="center"> 🐙 Equipe Adalove </h2>
+
+🌎 Read this in: [English](README.md) | [Português](README.pt-BR.md)
+
+<img src="docs/banner.adatech-pt.png" alt="AdaTech" width="900">
 </div>
 
 <div align="center">
