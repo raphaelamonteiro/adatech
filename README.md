@@ -12,7 +12,9 @@
 <a href ="#mvp"> Solution</a> |
 <a href ="#backlog"> Product Backlog</a> |
 <a href ="#sprint"> Sprint Timeline</a> |
+<a href ="#prototype"> Application Prototype </a> |
 <a href ="#technologies"> Technologies </a> |
+<a href ="#demo"> Software Demonstration </a> |
 <a href ="#dor"> DoR</a> |
 <a href ="#dod"> DoD</a> |
 <a href ="#roadmap"> Delivery Roadmap </a> |
@@ -104,7 +106,7 @@ This not only minimizes the risk of penalties but also allows the team to focus 
 </table>
 </div>
 
-## 🎥 Demonstração
+## 🎥 Software Demonstration
 
 <a id="demo"></a>
 
